@@ -17,7 +17,7 @@ export const ProjectList = [
     skills: "JavaScript,HTML,CSS",
   },
   {
-    name: "Dice Dame",
+    name: "Dice Game",
     image: Proj3,
     skills: "JavaScript,HTML,CSS",
   },
