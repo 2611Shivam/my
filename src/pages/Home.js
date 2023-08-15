@@ -2,7 +2,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import EmailIcon from "@mui/icons-material/Email";
-import '../styles/Home.css'
+import "../styles/Home.css";
 
 const Home = () => {
   return (
@@ -11,9 +11,19 @@ const Home = () => {
         <h2>Hii, My Name is Shivam </h2>
         <div className="prompt">
           <p>A web developer with a passion for learning and creating</p>
-          <LinkedInIcon />
-          <GitHubIcon />
-          <EmailIcon />
+          <a
+            href="https://www.linkedin.com/in/kumar-shivam-2336bb215/"
+            target="blank"
+          >
+            <LinkedInIcon />
+          </a>
+          <a href="https://github.com/2611Shivam" target="blank">
+            <GitHubIcon />
+          </a>
+          <a href="https://mail.google.com/mail/u/0/#inbox" target="blank">
+            {" "}
+            <EmailIcon />
+          </a>
         </div>
       </div>
 
